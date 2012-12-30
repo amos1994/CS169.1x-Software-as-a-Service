@@ -1,0 +1,9 @@
+class AddDirector < ActiveRecord::Migration
+  def up	
+	add_column :director
+  end
+
+  def down
+	remove_column :director
+  end
+end
